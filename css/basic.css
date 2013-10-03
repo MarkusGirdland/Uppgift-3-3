@@ -9,8 +9,9 @@
 #topbar {
     vertical-align: text-top;
     text-align: right;
-    background-color: red;
+    background-color: rgba(81, 71, 61, 1);
     font-style: italic;
+    color: white;
 }
 
 /* Menyn */
@@ -22,19 +23,36 @@
     width: 600px;
 }
 
+/* border: 1px solid black;
+    border-bottom: none;
+    width: 200px;
+    margin: 0;
+    padding: 0; */
+
 #menu a {
     display: none;
-}
-
-#menu li a {
-    display: block;
-    color: white;
-    background-color: black;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
-    border-left: 1px solid white;
+    border-left: 1px solid black;
+}
+
+
+#menu li a {
+    display: block;
+    color: white;
+    background-color: rgba(121, 112, 102, 1);
+    text-decoration: none;
+    font-family: "Verdana" , "Serif", fantasy;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#menu li.active a {
+    display: block;
+    color: rgba(121, 112, 102, 1);
+    background-color: rgba(234, 231, 210, 1);
     text-decoration: none;
     font-family: "Verdana" , "Serif", fantasy;
     font-size: 14px;
@@ -43,19 +61,19 @@
 
 #menu ul {
     padding: 31px;
-    background-color: red;
+    background-color: rgba(81, 71, 61, 1);
 }
 
 #menu ul li {
     display: block;
-    margin-right: px;
     float: left;
-    
 }
 
 #menu ul li:first-letter {
     text-transform: uppercase;
 }
+
+
 
 #maincontent {
     float: left;
