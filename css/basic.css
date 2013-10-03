@@ -1,19 +1,5 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 
-#container {
-    overflow: auto;
-    margin: 0 auto;
-    max-width: 600px;
-}
-
-#topbar {
-    vertical-align: text-top;
-    text-align: right;
-    background-color: rgba(81, 71, 61, 1);
-    font-style: italic;
-    color: white;
-}
-
 /* Menyn */
 
  #menu {
@@ -36,6 +22,11 @@
     padding-top: 7px;
     padding-bottom: 7px;
     border-left: 1px solid black;
+}
+
+#menu a:hover {
+    display: block;
+    background-color: rgba(156, 144, 132, 1);
 }
 
 
@@ -73,12 +64,27 @@
     text-transform: uppercase;
 }
 
+/* Layout */
 
+#container {
+    overflow: auto;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#topbar {
+    vertical-align: text-top;
+    text-align: right;
+    background-color: rgba(81, 71, 61, 1);
+    font-style: italic;
+    color: white;
+}
 
 #maincontent {
     float: left;
     width: 295px;
     border-right: 1px dashed black;
+    background-color: rgba(234, 231, 210, 1);
 }
 
 #maincontent img {
