@@ -10,22 +10,51 @@
     vertical-align: text-top;
     text-align: right;
     background-color: red;
+    font-style: italic;
 }
 
+/* Menyn */
+
  #menu {
-    background-color: red;
     background-image: url(pics/coffey.jpg);
     background-repeat: no-repeat;
-    height: 235px;
+    padding-top: 184px;
     width: 600px;
-    
+}
+
+#menu a {
+    display: none;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-left: 1px solid white;
+    text-decoration: none;
+    font-family: "Verdana" , "Serif", fantasy;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#menu ul {
+    padding: 31px;
+    background-color: red;
 }
 
 #menu ul li {
     display: block;
-    padding-top: 140px;
-    margin: 30px;
+    margin-right: px;
     float: left;
+    
+}
+
+#menu ul li:first-letter {
+    text-transform: uppercase;
 }
 
 #maincontent {
