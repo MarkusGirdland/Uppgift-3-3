@@ -69,6 +69,14 @@
     color: rgba(121, 112, 102, 1);
 }
 
+#container h1 {
+    font-weight: normal;
+}
+
+#container h2 {
+    font-weight: normal;
+}
+
 #topbar {
     vertical-align: text-top;
     text-align: right;
@@ -80,14 +88,8 @@
 #maincontent {
     float: left;
     width: 280px;
-    border-right: 1px dashed black;
+    border-right: 1px dashed rgba(121, 112, 102, 1);
     padding: 8px;
-}
-
-#maincontent h1 {
-    text-decoration: none;
-    font-style: normal;
-    font-size: 30px;
 }
 
 #maincontent img {
@@ -101,13 +103,18 @@
     padding: 8px;
 }
 
+#subcontent p {
+    font-family: "Verdana", "Arial", fantasy;
+    font-size: 10px;
+    line-height: 22px;
+}
+
 #subcontent h1 {
     font-size: 20px;
 }
 
 #subcontent h2 {
     font-size: 15px;
-    font-style: normal;
 }
 
 #subcontent a {
